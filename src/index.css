@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: sans-serif;
+    --main-border-radius: 8px;
+    --main-form-accent-color: #6291a8;
+    --main-form-border-color: #366278;
+    --main-brn-accent-color: #2d4e61;
+}

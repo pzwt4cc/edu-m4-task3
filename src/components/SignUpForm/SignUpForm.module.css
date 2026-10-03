@@ -1,0 +1,95 @@
+.mainForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+    width: 100%;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: var(--main-form-accent-color);
+    border-radius: var(--main-border-radius);
+    border: 2px solid var(--main-form-border-color);
+    box-shadow: 0 10px 20px 10px rgba(22, 70, 90, 0.35);
+    margin: 2rem auto;
+    transition: ease-out 0.3s;
+}
+
+.mainForm:hover {
+    transform: scale(1.1);
+    transition: ease-out 0.3s;
+}
+
+.mainTitleForm {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.labelForm {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+
+.labelFormName {
+    margin: 0;
+    flex: 1;
+}
+
+.labelInput {
+    flex: 1;
+    padding: 0.5rem;
+    width: 0.5rem;
+    height: 1.5rem;
+    border: 2px solid var(--main-form-border-color);
+    border-radius: var(--main-border-radius);
+}
+
+.labelInput:focus {
+    outline: none;
+}
+
+.checkboxLabel {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+
+.checkboxInput {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin: 0;
+    cursor: pointer;
+    accent-color: var(--main-form-border-color);
+}
+
+.mainFormBtn {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: white;
+    padding: 0.5rem 1.5rem;
+    border: 2px solid var(--main-form-border-color);
+    border-radius: var(--main-border-radius);
+    transition: ease-in-out 0.1s;
+}
+
+.mainFormBtn:hover {
+    background-color: var(--main-brn-accent-color);
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+.mainFormBtn:active {
+    transform: translateY(4px) scale(1, 0.8);
+}
+
+.valid {
+    border-color: #2e9e5b;
+}
+
+.invalid {
+    border-color: #d64545;
+}
